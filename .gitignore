@@ -1,3 +1,7 @@
+# Secret material
+certs
+config.json
+
 # Logs
 logs
 *.log

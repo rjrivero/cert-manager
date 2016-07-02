@@ -1,0 +1,28 @@
+{
+  "name": "cert-manager",
+  "version": "0.0.1",
+  "description": "Certifcate manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard \"*.js\" \"lib/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjrivero/cert-manager.git"
+  },
+  "author": "Rafael Rivero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rjrivero/cert-manager/issues"
+  },
+  "homepage": "https://github.com/rjrivero/cert-manager#readme",
+  "dependencies": {
+    "glob": "^7.0.5",
+    "moment": "^2.13.0",
+    "nconf": "^0.8.4",
+    "node-vault": "^0.4.5",
+    "standard": "^7.1.2",
+    "winston": "^2.2.0",
+    "x509": "^0.2.6"
+  }
+}
